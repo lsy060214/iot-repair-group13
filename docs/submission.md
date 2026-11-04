@@ -10,7 +10,7 @@
 | B（桂乐乐） | 暂缺 | [#2](https://github.com/lsy060214/iot-repair-group13/issues/2) | [#5](https://github.com/lsy060214/iot-repair-group13/pull/5) | [#6](https://github.com/lsy060214/iot-repair-group13/pull/6) 中 B 的评审意见 |
 | C（黄钰） | 暂缺 | [#3](https://github.com/lsy060214/iot-repair-group13/issues/3) | [#6](https://github.com/lsy060214/iot-repair-group13/pull/6) | [#4](https://github.com/lsy060214/iot-repair-group13/pull/4) 中 C 的评审意见 |
 
-分支与合并顺序：docs/requirements-a（A）→ docs/models-b（B）→ feat/status-c（C），三个 PR 均以 main 为目标分支，按 A→B→C 顺序合并，最终 main 最新合并提交为 `05af6b9`（Merge pull request #6）。
+分支与合并顺序：docs/requirements-a（A）→ docs/models-b（B）→ feat/status-c（C），三个成果 PR 均以 main 为目标分支，按 A→B→C 顺序合并，合并提交依次为 60f4cb5（#4）、4bc90bc（#5）、05af6b9（#6）。本索引经 PR #7 并入 main，main 当前最新合并提交为 36c3f29。
 
 ## 最终复核
 
