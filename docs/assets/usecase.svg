@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" font-family="Microsoft YaHei">
+  <rect width="1200" height="820" fill="#ffffff"/>
+
+  <!-- 系统边界 -->
+  <rect x="380" y="60" width="440" height="700" fill="#ffffff" stroke="#4A5568" stroke-width="2"/>
+  <text x="600" y="92" font-size="24" font-weight="bold" text-anchor="middle" fill="#111111">校园物联网设备报修系统</text>
+  <line x1="380" y1="106" x2="820" y2="106" stroke="#4A5568" stroke-width="1.5"/>
+
+  <!-- 参与者：报修人 -->
+  <g stroke="#111111" stroke-width="3" fill="none" stroke-linecap="round">
+    <circle cx="170" cy="300" r="20" fill="#ffffff"/>
+    <line x1="170" y1="320" x2="170" y2="395"/>
+    <line x1="138" y1="355" x2="202" y2="355"/>
+    <line x1="170" y1="395" x2="140" y2="445"/>
+    <line x1="170" y1="395" x2="200" y2="445"/>
+  </g>
+  <text x="170" y="482" font-size="24" font-weight="bold" text-anchor="middle" fill="#111111">报修人</text>
+
+  <!-- 参与者：维修人员 -->
+  <g stroke="#111111" stroke-width="3" fill="none" stroke-linecap="round">
+    <circle cx="1030" cy="300" r="20" fill="#ffffff"/>
+    <line x1="1030" y1="320" x2="1030" y2="395"/>
+    <line x1="998" y1="355" x2="1062" y2="355"/>
+    <line x1="1030" y1="395" x2="1000" y2="445"/>
+    <line x1="1030" y1="395" x2="1060" y2="445"/>
+  </g>
+  <text x="1030" y="482" font-size="24" font-weight="bold" text-anchor="middle" fill="#111111">维修人员</text>
+
+  <!-- 关联线 -->
+  <line x1="208" y1="338" x2="452" y2="205" stroke="#111111" stroke-width="2"/>
+  <line x1="208" y1="352" x2="452" y2="398" stroke="#111111" stroke-width="2"/>
+  <line x1="992" y1="338" x2="748" y2="205" stroke="#111111" stroke-width="2"/>
+  <line x1="992" y1="352" x2="748" y2="598" stroke="#111111" stroke-width="2"/>
+
+  <!-- 用例 -->
+  <ellipse cx="600" cy="190" rx="150" ry="50" fill="#F2F6FB" stroke="#1F3A5F" stroke-width="2"/>
+  <text x="600" y="190" font-size="24" text-anchor="middle" dominant-baseline="middle" fill="#111111">查看设备信息</text>
+
+  <ellipse cx="600" cy="400" rx="150" ry="50" fill="#F2F6FB" stroke="#1F3A5F" stroke-width="2"/>
+  <text x="600" y="400" font-size="24" text-anchor="middle" dominant-baseline="middle" fill="#111111">提交报修</text>
+
+  <ellipse cx="600" cy="610" rx="150" ry="50" fill="#F2F6FB" stroke="#1F3A5F" stroke-width="2"/>
+  <text x="600" y="610" font-size="24" text-anchor="middle" dominant-baseline="middle" fill="#111111">更新工单状态</text>
+
+  <text x="600" y="795" font-size="17" text-anchor="middle" fill="#555555">注：数据库、设备本身不是操作者，不画为参与者；报修人不能更新工单状态，维修人员不能提交报修。</text>
+</svg>
