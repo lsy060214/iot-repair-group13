@@ -2,7 +2,7 @@
 
 语言与版本：Java，JDK 13（`javac 13-ea`、`java version "13-ea" 2019-09-17`），运行于 Windows 本机
 
-测试人员GitHub用户名：暂缺（黄钰）
+测试人员GitHub用户名：huanyu1357（黄钰）
 
 运行命令（在 `src/java` 目录下依次执行）：
 
