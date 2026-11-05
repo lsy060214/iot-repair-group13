@@ -8,7 +8,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | A 组长 | 冷文品 | 23030913 | 060214lsy | [#1](https://github.com/lsy060214/iot-repair-group13/issues/1) | [#4](https://github.com/lsy060214/iot-repair-group13/pull/4) | [#5](https://github.com/lsy060214/iot-repair-group13/pull/5) 中 A 的评审意见 |
 | B | 桂乐乐 | 23030909 | amen340 | [#2](https://github.com/lsy060214/iot-repair-group13/issues/2) | [#5](https://github.com/lsy060214/iot-repair-group13/pull/5) | [#6](https://github.com/lsy060214/iot-repair-group13/pull/6) 中 B 的评审意见 |
-| C | 黄钰 | 23030911 | huanyu1357 | [#3](https://github.com/lsy060214/iot-repair-group13/issues/3) | [#6](https://github.com/lsy060214/iot-repair-group13/pull/6) | [#4](https://github.com/lsy060214/iot-repair-group13/pull/4) 中 C 的评审意见 |
+| C | 黄钰 | 23030911 | Hy-ai133333 | [#3](https://github.com/lsy060214/iot-repair-group13/issues/3) | [#6](https://github.com/lsy060214/iot-repair-group13/pull/6) | [#4](https://github.com/lsy060214/iot-repair-group13/pull/4) 中 C 的评审意见 |
 
 分支与合并顺序：docs/requirements-a（A）→ docs/models-b（B）→ feat/status-c（C），三个成果 PR 均以 main 为目标分支，按 A→B→C 顺序合并，合并提交依次为 60f4cb5（#4）、4bc90bc（#5）、05af6b9（#6）。本索引经 PR #7 并入 main，其后补记了各次合并提交号。
 
@@ -26,7 +26,7 @@ C（黄钰）：负责 StatusRule.java 与 test-results.md，按白名单写法�
 
 ## 说明
 
-仓库由组长账号创建，网页上的初始化、上传、Issue、PR 与合并操作由组长代为执行；桂乐乐（amen340）、黄钰（huanyu1357）已被邀请为仓库协作者，当前状态为待对方接受邀请；评审意见按各自身份撰写并记录在对应 PR 中，各自登录账号后可复核确认。
+仓库由组长账号创建，网页上的初始化、上传、Issue、PR 与合并操作由组长代为执行；桂乐乐（amen340）已接受邀请成为协作者，黄钰（Hy-ai133333）的协作邀请已发出、待对方登录接受；评审意见按各自身份撰写并记录在对应 PR 中，各自登录账号后可复核确认。
 
 ## 验收清单
 
@@ -35,5 +35,5 @@ C（黄钰）：负责 StatusRule.java 与 test-results.md，按白名单写法�
 - [x] 一种语言的状态函数与 4 项测试
 - [x] 三人均有实际提交和同伴评审
 - [x] 三个主要 PR 均已合并
-- [x] 两位组员已邀请为协作者（amen340、huanyu1357，待对方接受）
+- [x] 两位组员已邀请为协作者（amen340 已接受；Hy-ai133333 待对方接受）
 - [ ] 教师账号已加入仓库（待指导教师提供 GitHub 用户名后补充）
