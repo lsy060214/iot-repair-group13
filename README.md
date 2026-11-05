@@ -6,7 +6,7 @@
 
 成员B：桂乐乐，学号 23030909，GitHub 用户名 amen340
 
-成员C：黄钰，学号 23030911，GitHub 用户名 huanyu1357
+成员C：黄钰，学号 23030911，GitHub 用户名 Hy-ai133333
 
 本组选定语言：Java。只提交 `src/java` 下的 `StatusRule.java` 与 `StatusRuleTest.java`，`src/python` 为起始包示例，本组不作为完成版。
 
