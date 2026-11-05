@@ -2,11 +2,11 @@
 
 组号：第13组（23物联网一班）
 
-成员A GitHub用户名：暂缺（冷文品）
+成员A：冷文品，学号 23030913，GitHub 用户名 060214lsy
 
-成员B GitHub用户名：暂缺（桂乐乐）
+成员B：桂乐乐，学号 23030909，GitHub 用户名 amen340
 
-成员C GitHub用户名：暂缺（黄钰）
+成员C：黄钰，学号 23030911，GitHub 用户名 huanyu1357
 
 本组选定语言：Java。只提交 `src/java` 下的 `StatusRule.java` 与 `StatusRuleTest.java`，`src/python` 为起始包示例，本组不作为完成版。
 
