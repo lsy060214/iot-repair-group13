@@ -43,3 +43,4 @@ Java：进入 `src/java`，先执行 `javac StatusRule.java StatusRuleTest.java`
 分支：A=`docs/requirements-a`，B=`docs/models-b`，C=`feat/status-c`，收尾A=`docs/submission-a`。
 初始化之外不直接写main。评审顺序：A评审B的PR，B评审C的PR，C评审A的PR。
 操作详见配套GitHub教程。
+amen340:完成领域建模，绘制类图、状态图，参与代码评审
