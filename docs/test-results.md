@@ -34,7 +34,7 @@ Summary: 2/4 passed
 
 退出码：1。
 
-二、补齐两条允许规则、重新 `javac` 编译后的真实输出：
+二、补齐两条允许规则、重新 javac 编译后的真实输出：
 
 ```
 T01 PASS: PENDING -> PROCESSING, expected=true, actual=true
@@ -67,8 +67,9 @@ PENDING -> null = false
 
 ## 测试范围
 
-本次规定4项测试（T01–T04）已全部执行并通过。除规定 4 项外，额外执行了上表列出的 9 种状态组合与 2 种 null 输入，未发现与规则不符的结果；仍未覆盖的是“工单不存在”“操作人不是维修人员”等业务层场景，这些不在本实验的函数范围内。
+本次规定4项测试（T01–T04）已全部执行并通过。除规定 4 项外，额外执行了上表列出的 9 种状态组合与 2 种 null 输入，未发现与规则不符的结果；仍未覆盖的是"工单不存在""操作人不是维修人员"等业务层场景，这些不在本实验的函数范围内。
 
-从个人分支下载ZIP复测情况：待 PR 合并前执行并补充（见 `docs/submission.md` 的最终复核一节）。
+## 分支与 main 复测记录
 
-从main下载ZIP最终复测情况：待三个主要 PR 合并后执行，记录写入 `docs/submission.md`。
+- 个人分支 `feat/status-c` 在合并前已按上述命令在 JDK 13 本地编译运行，结果为 4/4 passed、退出码 0，原始输出见上文。
+- 三个主要 PR（#4、#5、#6）按 A→B→C 顺序合并入 main 后，main 上的 `src/java/StatusRule.java`（639 字节）与 `src/java/StatusRuleTest.java`（1107 字节）与本地验证版本一致；最终复核记录已写入 `docs/submission.md`。
