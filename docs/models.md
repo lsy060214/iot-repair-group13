@@ -40,7 +40,7 @@ classDiagram
 ```
 
 说明：
-- `WorkOrder.status` 取值为 PENDING、PROCESSING、COMPLETED 三个字符串值，与状态图和程序中的枚举一致。
+- `WorkOrder.status` 取值为 PENDING、PROCESSING、COMPLETED 三个字符串值，与状态图和程序中的枚举一致。类图用 String 表示是为了只描述数据结构、不引入语言依赖；实现时该属性对应 `StatusRule.java` 中的 `StatusRule.Status` 枚举，取值来源即该枚举，二者一一对应。
 - `WorkOrder.deviceId` 是外键，指向 `Device.deviceId`；因此每张工单只能属于一台设备，而一台设备可以有零张（未报修）或多张（多次报修）工单。
 - 两个类只描述数据结构，不在本实验中实现为完整实体类。
 
